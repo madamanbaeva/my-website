@@ -1,0 +1,50 @@
+/* style.css — базовые стили для учебного сайта */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f7f7f7;
+  color: #222;
+  padding: 24px;
+}
+
+header {
+  background: #2b6cb0;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+main {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2b6cb0;
+  color: white;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
